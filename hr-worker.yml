@@ -1,6 +1,10 @@
+teste:
+  config: ENC(kcR9nayqs9G9OPtlXJAP1ulizY1n9DxQQNc9O87A0RU)
 spring:
   datasource:
-      password: ''
-      url: jdbc:h2:mem:testdb
-      username: sa
-    
+    password: ''
+    url: jdbc:h2:mem:testdb
+    username: sa
+jasypt:
+  encryptor:
+    password: salting
