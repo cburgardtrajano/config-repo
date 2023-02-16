@@ -1,5 +1,5 @@
 teste:
-  config: ENC(zryGxP9Y37Qk8iYSpZHf1QKPLfSANwm/)
+  config: ENC(9DZg8nI3GRx4HaplVYhESA==)
 spring:
   datasource:
     password: ''
