@@ -1,5 +1,3 @@
-teste:
-  config: ENC(9DZg8nI3GRx4HaplVYhESA==)
 spring:
   datasource:
     password: ''
