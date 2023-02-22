@@ -4,4 +4,4 @@ spring:
   datasource:
     password: ''
     url: jdbc:h2:mem:testdb
-    username: ENC(L0ICmePwht1sEFnCQCF4yg==)
+    username: ENC(Dl/MKVjzWav/R4fRgf4Mmg==)
