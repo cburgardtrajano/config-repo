@@ -1,6 +1,19 @@
 DOMAIN: "localhost"
 STACK_NAME: "safe-side-com"
-BACKEND_CORS_ORIGINS: ["http://localhost", "http://localhost:4200", "http://localhost:3000", "http://localhost:8080", "https://localhost", "https://localhost:4200", "https://localhost:3000", "https://localhost:8080", "http://dev.safe-side.com", "https://stag.safe-side.com", "https://safe-side.com", "http://local.dockertoolbox.tiangolo.com", "http://localhost.tiangolo.com"]
+BACKEND_CORS_ORIGINS:
+  - "http://localhost"
+  - "http://localhost:4200"
+  - "http://localhost:3000"
+  - "http://localhost:8080"
+  - "https://localhost"
+  - "https://localhost:4200"
+  - "https://localhost:3000"
+  - "https://localhost:8080"
+  - "http://dev.safe-side.com"
+  - "https://stag.safe-side.com"
+  - "https://safe-side.com"
+  - "http://local.dockertoolbox.tiangolo.com"
+  - "http://localhost.tiangolo.com"
 PROJECT_NAME: "safe-side-clients"
 SECRET_KEY: "changethis"
 USERS_OPEN_REGISTRATION: True
